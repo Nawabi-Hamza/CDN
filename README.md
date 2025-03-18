@@ -20,6 +20,7 @@ Or for JavaScript:
 ```html
 <script src="https://cdn.jsdelivr.net/npm/hamza-nawabi-cdn@latest/Aria-Delta/js/load-page-dynamic.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/hamza-nawabi-cdn@latest/Aria-Delta/js/changeDirectionPage.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hamza-nawabi-cdn@latest/Aria-Delta/js/toggleSidebar.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/hamza-nawabi-cdn@latest/Aria-Delta/js/script.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/hamza-nawabi-cdn@latest/js/chart.js"></script>
