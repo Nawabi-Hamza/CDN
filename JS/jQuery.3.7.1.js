@@ -1,13 +1,10 @@
 /*!
  * jQuery JavaScript Library v3.7.1
- * https://jquery.com/
+ * https://cdn.jsdelivr.net/gh/Nawabi-Hamza/CDN/js/jQuery.3.7.1.js
  *
- * Copyright OpenJS Foundation and other contributors
- * Released under the MIT license
- * https://jquery.org/license
- *
- * Date: 2023-08-28T13:37Z
+ * 
  */
+// console.log("Welcome Dear Hamza Nawabi")
 ( function( global, factory ) {
 
 	"use strict";
