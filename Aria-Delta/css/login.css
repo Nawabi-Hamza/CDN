@@ -1,0 +1,123 @@
+/**
+ * 
+ * This is style is for login page
+ * Author: Hamza Nawabi 
+ * Date: 2025-02-12
+ * Version: 1.6
+ * Link: https://cdn.jsdelivr.net/gh/Nawabi-Hamza/CDN/Aria-Delta/css/login.css
+ * 
+ */
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url('../images/login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: changeBackground 24s infinite; /* Animation duration for complete change (30s per image * 8 images) */
+}
+
+@keyframes changeBackground {
+    0% {
+        background-image: url('../images/login.png'); /* First image */
+    }
+    12.5% {
+        background-image: url('../images/login1.jpeg'); /* Second image */
+    }
+    25% {
+        background-image: url('../images/login2.jpeg'); /* Third image */
+    }
+    37.5% {
+        background-image: url('../images/login3.jpeg'); /* Fourth image */
+    }
+    50% {
+        background-image: url('../images/login4.jpeg'); /* Fifth image */
+    }
+    62.5% {
+        background-image: url('../images/login5.jpeg'); /* Sixth image */
+    }
+    75% {
+        background-image: url('../images/login6.jpeg'); /* Seventh image */
+    }
+    87.5% {
+        background-image: url('../images/login7.jpeg'); /* Eighth image */
+    }
+    100% {
+        background-image: url('../images/login.png'); /* First image again, for loop */
+    }
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.login {
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+}
+
+.login form {
+    transition: .5s;
+    backdrop-filter: blur(10px); /* Blur effect */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* White border */
+    border-radius: 10px; /* Smooth rounded edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: 0.5s;
+}
+
+.login form:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.2); /* Slightly increase transparency on hover */
+}
+
+.custom-navbar {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    backdrop-filter: blur(10px); /* Blur effect */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* White border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: 0.5s;
+}
+
+.custom-navbar ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: .5s;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgba(220, 220, 220, 0.458);
+}
+
+@media only screen and (max-width: 520px) {
+    .custom-navbar ul {
+        gap: .3em;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    a {
+        font-size: 22px;
+    }
+}
