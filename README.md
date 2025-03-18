@@ -33,7 +33,7 @@ If you want to use this package locally, install it using npm:
 npm install hamza-nawabi-cdn
 ```
 
-## 🚀 Updating Your CDN
+<!-- ## 🚀 Updating Your CDN
 1. Make changes to your files.
 2. Bump the version in `package.json`.
 3. Publish to npm:
@@ -43,7 +43,7 @@ npm install hamza-nawabi-cdn
 4. Your updates will be available at:
    ```sh
    https://cdn.jsdelivr.net/npm/hamza-nawabi-cdn@latest/
-   ```
+   ``` -->
 
 ## 📜 License
 This project is licensed under the MIT License.
