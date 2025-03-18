@@ -20,31 +20,31 @@ body {
 
 @keyframes changeBackground {
     0% {
-        background-image: url('../images/login.png'); /* First image */
+        background-image: url('https://school.ariadelta.af/assets/images/login.png'); /* First image */
     }
     12.5% {
-        background-image: url('../images/login1.jpeg'); /* Second image */
+        background-image: url('https://school.ariadelta.af/assets/images/login1.jpeg'); /* Second image */
     }
     25% {
-        background-image: url('../images/login2.jpeg'); /* Third image */
+        background-image: url('https://school.ariadelta.af/assets/images/login2.jpeg'); /* Third image */
     }
     37.5% {
-        background-image: url('../images/login3.jpeg'); /* Fourth image */
+        background-image: url('https://school.ariadelta.af/assets/images/login3.jpeg'); /* Fourth image */
     }
     50% {
-        background-image: url('../images/login4.jpeg'); /* Fifth image */
+        background-image: url('https://school.ariadelta.af/assets/images/login4.jpeg'); /* Fifth image */
     }
     62.5% {
-        background-image: url('../images/login5.jpeg'); /* Sixth image */
+        background-image: url('https://school.ariadelta.af/assets/images/login5.jpeg'); /* Sixth image */
     }
     75% {
-        background-image: url('../images/login6.jpeg'); /* Seventh image */
+        background-image: url('https://school.ariadelta.af/assets/images/login6.jpeg'); /* Seventh image */
     }
     87.5% {
-        background-image: url('../images/login7.jpeg'); /* Eighth image */
+        background-image: url('https://school.ariadelta.af/assets/images/login7.jpeg'); /* Eighth image */
     }
     100% {
-        background-image: url('../images/login.png'); /* First image again, for loop */
+        background-image: url('https://school.ariadelta.af/assets/images/login.png'); /* First image again, for loop */
     }
 }
 
