@@ -1,9 +1,8 @@
-/**
- * Skipped minification because the original files appears to be already minified.
- */
+
 /*!
- * Chart.js Hamza Nawabi
- * https://cdn.jsdelivr.net/gh/Nawabi-Hamza/CDN/js/chart.js
+ * Chart.js 
+ * Author: Hamza Nawabi
+ * https://cdn.jsdelivr.net/npm/hamza-nawabi-cdn/js/chart.js
  *
  */
 !(function (t, e) {

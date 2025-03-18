@@ -1,8 +1,8 @@
 /*!
  * jQuery JavaScript Library v3.7.1
- * https://cdn.jsdelivr.net/gh/Nawabi-Hamza/CDN/js/jQuery.3.7.1.js
+ * Author: Hamza Nawabi
+ * https://cdn.jsdelivr.net/npm/hamza-nawabi-cdn/js/jQuery.3.7.1.js
  *
- * 
  */
 // console.log("Welcome Dear Hamza Nawabi")
 ( function( global, factory ) {

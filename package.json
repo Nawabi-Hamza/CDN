@@ -1,11 +1,22 @@
 {
-  "name": "cdn",
-  "version": "1.0.1",
+  "name": "hamza-nawabi-cdn",
+  "version": "1.2.3",
   "description": "Hamza Nawabi CDN",
   "main": "Aria-Delta/js/script.js",
   "files": [
     "Aria-Delta/css/main.css",
-    "Aria-Delta/js/script.js"
+    "Aria-Delta/css/load-page-dynamic.css",
+    "Aria-Delta/css/login.css",
+    
+    "Aria-Delta/js/changeDirectionPage.js",
+    "Aria-Delta/js/load-page-dynamic.js",
+    "Aria-Delta/js/script.js",
+    
+    "css/animate.css",
+
+    "js/jQuery.3.7.1.js",
+    "js/chart.js",
+    "js/bs.min.js"
   ],
   "license": "MIT"
 }
