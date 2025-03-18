@@ -1,0 +1,11 @@
+{
+  "name": "cdn",
+  "version": "1.0.1",
+  "description": "Hamza Nawabi CDN",
+  "main": "Aria-Delta/js/script.js",
+  "files": [
+    "Aria-Delta/css/main.css",
+    "Aria-Delta/js/script.js"
+  ],
+  "license": "MIT"
+}
