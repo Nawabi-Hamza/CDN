@@ -239,7 +239,9 @@ table img{
     cursor: pointer;
     transition: .4s;
 }
-
+.border--primary{
+    border-color: var(--primary-color) !important;
+}
 /* Responsive for size 1200px screen */
 @media only screen and (max-width: 1200px){
     .divider{
