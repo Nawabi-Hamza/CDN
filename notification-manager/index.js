@@ -93,6 +93,7 @@ class NotificationManager {
         });
     }
 }
-
+// ✅ Make it available globally
+window.NotificationManager = NotificationManager;
 // ✅ Export for use in other modules
 export default NotificationManager;

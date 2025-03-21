@@ -1,13 +1,18 @@
 {
   "name": "@hamza-nawabi/notification-manager",
   "author": "Hamza Nawabi",
-  "version": "2.3.0",
+  "version": "2.3.7",
     "description": "A lightweight JavaScript notification manager with push notifications, reminders, and dynamic redirects.",
-    "main": "index.js",
-    "module": "index.js",
+    "main": "notification-manager.min.js",
+    "module": "notification-manager.obf.js",
     "scripts": {
       "start": "node index.js"
     },
+    "files": [
+      "notification-manager.min.js",
+      "notification-manager.obf.js",
+      "README.md"
+    ],
     "keywords": [
       "notifications",
       "push-notifications",
