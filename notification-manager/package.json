@@ -1,0 +1,29 @@
+{
+  "name": "@hamza-nawabi/notification-manager",
+  "author": "Hamza Nawabi",
+  "version": "2.3.0",
+    "description": "A lightweight JavaScript notification manager with push notifications, reminders, and dynamic redirects.",
+    "main": "index.js",
+    "module": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "notifications",
+      "push-notifications",
+      "javascript",
+      "service-worker",
+      "reminders"
+    ],
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Nawabi-Hamza/notification-manager.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Nawabi-Hamza/notification-manager/issues"
+    },
+    "homepage": "https://github.com/Nawabi-Hamza/notification-manager#readme",
+    "dependencies": {}
+  }
+  
