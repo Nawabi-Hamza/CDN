@@ -1,6 +1,6 @@
 {
     "name": "@hamza-nawabi/notification-manager",
-    "version": "2.4.3",
+    "version": "2.4.4",
     "main": "index.min.js",
     "module": "index.min.js",
     "exports": {
