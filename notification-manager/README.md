@@ -14,18 +14,12 @@ A lightweight JavaScript notification manager that integrates with Service Worke
 ### 🌍 Use via CDN  
 Add the following script to your HTML file:  
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@hamza-nawabi/notification-manager@2.4.4/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@hamza-nawabi/notification-manager@2.4.8/index.min.js"></script>
 <script>
     // 1️⃣ Initialize Notification Manager
     const notifier = new NotificationManager();
     // 2️⃣ Request Notification Permission
-    notifier.requestPermission().then(permission => {
-        if (permission === "granted") {
-            console.log("✅ Notifications enabled!");
-        } else {
-            console.log("❌ Notifications blocked!");
-        }
-    });
+    notifier.requestPermission();
     // 3️⃣ Send a Notification
     notifier.sendNotification(
         "Hello, User!", 
