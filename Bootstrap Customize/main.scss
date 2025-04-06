@@ -1,0 +1,48 @@
+$primary: #30b9f8;
+$secondary: #4f585d;
+$success: #1fba73;
+$danger: #f15558bc;
+$warning: #ffdb29;
+$info: #70d8fe;
+$dark: #606060;
+$light: #f8f9fa; // default Bootstrap light
+
+
+
+// Override border radius variables
+$border-radius: 4px;
+
+// add custom theme color to bootstrap
+@import "./scss/_functions";
+@import "./scss/_variables";
+$custom-theme-colors: (
+  "ternary": #23a6a6
+);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// Card Customize
+@each $color-name, $color-value in $theme-colors {
+  .border-#{$color-name} {
+    .card-header {
+      background-color: $color-value;
+
+      // Check if background color is light or dark
+      color: if(color-contrast($color-value) == $color-value, #000, #fff);
+
+      border-bottom: 1px solid lighten($color-value, 10%);
+      box-shadow: 0 2px 6px rgba($color-value, 0.4);
+    }
+  }
+}
+
+.border-light {
+  .card-header {
+    background-color: $light;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 1px solid darken($light, 10%);
+    box-shadow: 0 2px 6px rgba($light, 0.4);
+  }
+}
+
+@import "./scss/bootstrap.scss";
